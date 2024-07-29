@@ -30,6 +30,8 @@ http://localhost:8080/price?applicationDate=yyyy-MM-ddTHH:mm:ssZ&productId=x&bra
 
 ### <span style="color:green"> Execute E2E tests </span>
 
+#### <span style="color:green"> 1. Karate </span>
+
 Karate scenarios to do the E2E tests have been created.
 
 Try them executing the next command in the `/launcher` folder:
@@ -45,6 +47,17 @@ Karate generates automaticaly a form with the result of the test execution at:
 ```bash
 file:///project_path/launcher/target/karate-reports/karate-summary.html
 ```
+
+#### <span style="color:green"> 2. Postman </span>
+
+Test Postman collection has been provided in file `Pruebas_E2E_IdxTechnicalTest.postman_collection`.
+
+To run the collection:
+
+1. Import the file from Postman.
+2. Select `- View more actions` from imported collection.
+3. Select option `- Run Collection`.
+4. Finally, push the button `- Run Pruebas E2E IdxTechnicalTest`.
 
 ### <span style="color:green"> See H2 db </span>
 
